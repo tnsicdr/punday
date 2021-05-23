@@ -1,0 +1,35 @@
+{
+  "name": "punday",
+  "version": "0.0.0",
+  "description": "a pun a day keeps the doctor away",
+  "main": "index.js",
+  "author": "Thanh Nguyen <908739+tnsicdr@users.noreply.github.com>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack server --env development",
+    "build": "cross-env NODE_ENV=production webpack --env production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-react-jsx": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.5",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.3.0",
+    "sass": "^1.33.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
