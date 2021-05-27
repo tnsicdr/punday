@@ -12,7 +12,9 @@ const puns = [
     `I burned 2000 calories today, I left my food in the oven for too long.`,
     `I think circles are pointless.`,
     `I used to be addicted to soap, but I'm clean now.`,
-    `I knew a guy who collected candy canes, they were all in mint condition`
+    `I knew a guy who collected candy canes, they were all in mint condition`,
+    `I will iron out the details later, said the man pressed for time`,
+    `Whoever stole my Microsoft DVD is in big trouble. You have my word!`
 ];
 
 export const getPun = () => {
